@@ -29,19 +29,33 @@ const Reviews = () => {
 
   return (
     <div className="p-8 flex flex-col gap-8 bg-gray-100">
-      <h1 className="text-[40px] text-center font-black">¿Qué nos motiva?</h1>
-      <div className="flex justify-center gap-4">
-        <span className="text-5xl text-primary">
-          <RiDoubleQuotesL />
-        </span>
-        <p className="max-w-2xl text-center text-gray-500">
-          Somos un equipo de profesionales dedicados a proporcionar salud y bienestar.
-          Nuestro objetivo es mejorar la calidad de vida de las personas que pasan
-          largas horas trabajando, ayudándolas a aliviar tensiones y mejorar su productividad.
-        </p>
-        <span className="text-5xl text-primary">
-          <RiDoubleQuotesR />
-        </span>
+
+
+      <div className="flex flex-col items-center py-16 bg-gray-100">
+        <div className="flex flex-row items-start justify-center gap-16">
+          {/* ¿Qué nos motiva? */}
+          <div className="flex flex-col items-center w-1/2">
+            <h1 className="text-[40px] text-center font-black mb-8">¿Qué nos motiva?</h1>
+            <div className="flex flex-col justify-center gap-4">
+              <p className="max-w-2xl text-left text-gray-500 mb-4">
+                Queremos mejorar la calidad de vida de aquellos que, por diversos motivos, sufren de tensiones y malestares musculares, mediante la ejecución de masajes relajantes y descontracturantes.
+              </p>
+              <p className="max-w-2xl text-left text-gray-500">
+                Queremos entregar una experiencia, acompañada de aromas, sonidos y sensaciones, promoviendo así el alivio de tensiones y mejoras en la productividad durante espacios activos de la jornada laboral.
+              </p>
+            </div>
+          </div>
+
+          {/* ¿Quiénes somos? */}
+          <div className="flex flex-col items-center w-1/2">
+            <h1 className="text-[40px] text-center font-black mb-8">¿Quiénes somos?</h1>
+            <div className="flex justify-center gap-4">
+              <p className="max-w-2xl text-left text-gray-500">
+                Somos un grupo de profesionales dedicado a proporcionar salud y bienestar a las personas.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="flex flex-col items-center justify-center gap-8">
         <div className="flex items-center justify-center gap-8 md:gap-12">

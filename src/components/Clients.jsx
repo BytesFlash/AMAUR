@@ -2,7 +2,7 @@ import React from "react";
 
 const Clients = () => {
   return (
-    <div className="bg-gray-100 p-8 flex flex-col items-center justify-center gap-8 mt-20 xl:mt-0">
+    <div className="bg-white p-8 flex flex-col items-center justify-center gap-8 mt-20 xl:mt-0">
       <h1 className="text-2xl font-medium text-gray-800 text-center">
         Grandes compañias que confian en nosotros
       </h1>

@@ -1,6 +1,6 @@
 import React from "react";
 // Icons
-import { RiMailFill, RiSmartphoneFill, RiMacFill } from "react-icons/ri";
+import { RiMailFill, RiSmartphoneFill, RiMacFill, RiHandHeartFill, RiPauseCircleFill, RiHealthBookFill, RiStethoscopeFill } from "react-icons/ri";
 
 const Services = () => {
   return (
@@ -9,10 +9,9 @@ const Services = () => {
       className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-20 p-8 md:p-12 xl:p-20"
     >
       <div className="flex flex-col gap-4">
-        <h1 className="text-[40px] font-bold">How we can help you</h1>
+        <h1 className="text-[40px] font-bold">Necesitas contactarnios</h1>
         <p className="text-[20px] text-gray-500">
-          Follow our newsletter. We will regulary update our latest project and
-          availability.
+          Ingresa porfavor tu correo y alguien de nuestro equipo se contactara contigo
         </p>
         <form className="w-full">
           <div className="relative">
@@ -20,13 +19,13 @@ const Services = () => {
             <input
               type="text"
               className="w-full bg-gray-100 py-4 pl-10 pr-36 rounded-xl outline-none"
-              placeholder="Enter your email address"
+              placeholder="Ingresa tu correo"
             />
             <button
               type="submit"
               className="absolute font-semibold py-2 px-6 bg-primary text-white rounded-xl top-1/2 -translate-y-1/2 right-2"
             >
-              Suscribe
+              Enviar
             </button>
           </div>
         </form>
@@ -34,31 +33,31 @@ const Services = () => {
       {/* Services */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="flex flex-col gap-2">
-          <RiSmartphoneFill className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
-          <h3 className="text-[20px] font-bold">UI/UX Design</h3>
+          <RiHandHeartFill className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
+          <h3 className="text-[20px] font-bold">Masajes</h3>
           <p className="text-gray-500">
-            Sometimes features require a short description
+            Masajes corporativos y particulares
           </p>
         </div>
         <div className="flex flex-col gap-2">
-          <RiMacFill className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
-          <h3 className="text-[20px] font-bold">Logo Branding</h3>
+          <RiPauseCircleFill className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
+          <h3 className="text-[20px] font-bold">Pausa activa</h3>
           <p className="text-gray-500">
-            Sometimes features require a short description
+            Pausa activa para organizaciones, empresas y fundaciones
           </p>
         </div>
         <div className="flex flex-col gap-2">
-          <RiSmartphoneFill className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
-          <h3 className="text-[20px] font-bold">App Design</h3>
+          <RiHealthBookFill className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
+          <h3 className="text-[20px] font-bold">Terapia ocupacional</h3>
           <p className="text-gray-500">
-            Sometimes features require a short description
+            Terapia ocupacional corporativa y particular
           </p>
         </div>
         <div className="flex flex-col gap-2">
-          <RiMacFill className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
-          <h3 className="text-[20px] font-bold">Webiste Design</h3>
+          <RiStethoscopeFill className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
+          <h3 className="text-[20px] font-bold">Kinesiolgia</h3>
           <p className="text-gray-500">
-            Sometimes features require a short description
+            Kinesiologia corporativa y particular
           </p>
         </div>
       </div>

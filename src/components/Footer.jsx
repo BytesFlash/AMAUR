@@ -41,55 +41,7 @@ const Footer = () => {
           </a>
         </nav>
       </div>
-      <div className="mt-8">
-        <h3 className="text-lg font-bold text-white text-center md:text-left">
-          Company
-        </h3>
-        <nav className="mt-4 flex flex-col md:flex-row items-center justify-between gap-4">
-          <a
-            href="#"
-            className="text-gray-300 mt-4 hover:text-white transition-colors"
-          >
-            About Us
-          </a>
-          <a
-            href="#"
-            className="text-gray-300 mt-4 hover:text-white transition-color"
-          >
-            Press
-          </a>
-          <a
-            href="#"
-            className="text-gray-300 mt-4 hover:text-white transition-color"
-          >
-            Investors
-          </a>
-          <a
-            href="#"
-            className="text-gray-300 mt-4 hover:text-white transition-color"
-          >
-            Events
-          </a>
-          <a
-            href="#"
-            className="text-gray-300 mt-4 hover:text-white transition-color"
-          >
-            Terms of use
-          </a>
-          <a
-            href="#"
-            className="text-gray-300 mt-4 hover:text-white transition-color"
-          >
-            Privacy policy
-          </a>
-          <button
-            type="button"
-            className="font-semibold py-2 px-6 bg-primary text-white rounded-xl"
-          >
-            Contact Us
-          </button>
-        </nav>
-      </div>
+
       <div className="mt-20">
         <p className="text-gray-300 text-center">
           © AMAUR 2024 - All Rights Reserved
