@@ -3,9 +3,19 @@
 @tailwind utilities;
 
 html {
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+}
 
-  ::-webkit-scrollbar {
-    width: 0px;
-  }
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.word-transition {
+  display: inline-block;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.word-transition.visible {
+  opacity: 1;
+}

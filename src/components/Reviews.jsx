@@ -32,10 +32,10 @@ const Reviews = () => {
           <div className="flex flex-col items-center lg:w-1/2">
             <h1 className="text-[40px] text-center font-black mb-8">¿Qué nos motiva?</h1>
             <div className="flex flex-col justify-center gap-4">
-              <p className="max-w-2xl text-left text-gray-500 mb-4">
+              <p className="max-w-2xl text-justify text-gray-500 mb-4">
                 Somos un equipo de especialistas preocupados por el bienestar integral de las personas. Hemos entendido la importancia de equilibrar nuestro cuerpo, mente y alma, para tener un óptimo rendimiento en nuestras funciones diarias. El área laboral es el espacio donde más habitamos, y entendemos la relevancia que tiene sentir comodidad plena en este lugar. Por eso mismo, queremos ofrecer un servicio que pueda mejorar la calidad de vida de aquellos que, por diversos motivos, sufren de tensiones y malestares musculares, mediante la ejecución de masajes relajantes y descontracturantes. Queremos entregar una experiencia, acompañada de aromas, sonidos y sensaciones, permitiendo el alivio de tensiones y mejoras en el desarrollo de funciones.
               </p>
-              <p className="max-w-2xl text-left text-gray-500">
+              <p className="max-w-2xl text-justify text-gray-500">
                 Queremos entregar una experiencia, acompañada de aromas, sonidos y sensaciones, promoviendo así el alivio de tensiones y mejoras en la productividad durante espacios activos de la jornada laboral.
               </p>
             </div>
@@ -45,7 +45,7 @@ const Reviews = () => {
           <div className="flex flex-col items-center lg:w-1/2">
             <h1 className="text-[40px] text-center font-black mb-8">¿Quiénes somos?</h1>
             <div className="flex justify-center gap-4">
-              <p className="max-w-2xl text-left text-gray-500">
+              <p className="max-w-2xl text-justify text-gray-500">
                 Somos un equipo interdisciplinario de profesionales dedicado a proporcionar salud y bienestar a las personas. En nuestro equipo contamos con profesionales del área de la salud, como kinesiología y terapia ocupacional, dedicados al cuidado de equipo de las personas que componen las instituciones con las cuales trabajamos en red. Nos especializamos en reconocer las necesidades ergonómicas y hábitos posturales de los trabajadores, para prevenir lesiones y enfermedades laborales futuras.
                 Como especialistas en el área de la masoterapia y la salud de la rehabilitación, nos proponemos ofrecer un espacio de confort dentro del espacio laboral.
               </p>

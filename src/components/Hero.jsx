@@ -1,21 +1,24 @@
 import React, { useEffect, useState } from "react";
-import { Fade } from 'react-awesome-reveal';
 
 const Hero = () => {
-
   const texts = [
-    'Activa la energía',
-    'Mantén tu ritmo',
-    'Aumenta tu bienestar',
-    'Utiliza tu fuerza',
-    'Renueva tu ánimo'
+    "Activa la energía",
+    "Mantén tu ritmo",
+    "Aumenta tu bienestar",
+    "Utiliza tu fuerza",
+    "Renueva tu ánimo",
   ];
 
   const [currentText, setCurrentText] = useState(0);
+  const [visible, setVisible] = useState(true);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentText((prevText) => (prevText + 1) % texts.length);
+      setVisible(false);
+      setTimeout(() => {
+        setCurrentText((prevText) => (prevText + 1) % texts.length);
+        setVisible(true);
+      }, 500); // Tiempo de la transición (0.5 segundos)
     }, 3000); // Cambiar texto cada 3 segundos
     return () => clearInterval(interval);
   }, [texts.length]);
@@ -30,9 +33,9 @@ const Hero = () => {
       <div className="md:col-span-5 flex items-center justify-center p-8 xl:p-16 relative z-10">
         <div className="flex flex-col gap-8 text-center">
           <h1 className="text-5xl xl:text-6xl font-serif xl:leading-[7.5rem] text-white">
-            <Fade key={currentText} triggerOnce>
+            <span className={`word-transition ${visible ? "visible" : ""}`}>
               {texts[currentText]}
-            </Fade>
+            </span>
           </h1>
           <p className="text-white text-lg md:text-xl leading-[1.9rem] max-w-3xl mx-auto">
             Especializados en realizar masajes relajantes y descontracturantes, brindando una experiencia única a las empresas y colaboradores. Te invitamos a encontrar el alivio que necesitas.
@@ -49,3 +52,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
