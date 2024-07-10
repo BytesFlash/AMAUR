@@ -13,17 +13,21 @@ const Footer = () => {
     <footer className="bg-footer p-8 xl:p-20">
       <div className="flex flex-col md:flex-row items-center justify-between gap-4 border-b border-gray-500 pb-8">
         {/* Logo */}
-        <div className="w-1/6">
+        <div className="w-96 md:w-auto">
           <a
             href="#"
-            className="text-2xl font-bold relative p-1 bg-footer text-white"
+            className="text-2xl font-bold  p-1 left-0 text-white flex items-center"
           >
-            AMAUR<span className="text-primary text-5xl">.</span>{" "}
+            <img
+              src="logo-AMAUR-T.png"
+              alt="Amaur Logo"
+              className="h-16 md:h-20 mr-12"
+            />
           </a>
         </div>
         {/* Social media */}
         <nav className="flex items-center gap-4">
-          <a href="#" className="block text-white p-4 bg-primary rounded-full">
+          <a href="https://www.instagram.com/amaurchile/" target="_blank" className="block text-white p-4 bg-primary rounded-full">
             {" "}
             <RiInstagramLine />{" "}
           </a>

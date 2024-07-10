@@ -60,7 +60,7 @@ const Works = () => {
           </div>
           <div className="flex flex-col gap-4">
             <img
-              src="Mallsur1.jpg"
+              src="Mallsur1.png"
               className="w-full h-56 object-cover rounded-3xl"
             />
             <p className="text-gray-500">17 de abril, 2024</p>
