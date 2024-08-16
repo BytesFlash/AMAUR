@@ -25,8 +25,8 @@ const Reviews = () => {
   ];
 
   return (
-    <div className="p-8 flex flex-col gap-8 bg-gray-100">
-      <div className="flex flex-col items-center py-16 bg-gray-100">
+    <div className="p-8 flex flex-col gap-8 ">
+      <div className="flex flex-col items-center py-16 ">
         <div className="flex flex-col lg:flex-row items-start justify-center gap-16">
           {/* ¿Qué nos motiva? */}
           <div className="flex flex-col items-center lg:w-1/2">
@@ -53,13 +53,13 @@ const Reviews = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center py-2 sm:py-16 bg-gray-100">
+      <div className="flex flex-col items-center py-2 sm:py-16 ">
         <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between gap-2 lg:gap-12">
           {teamMembers.map((member) => (
             <div key={member.name} className="flex flex-col items-center">
               <img
                 src={member.imgSrc}
-                className="w-20 h-20 object-cover rounded-full ring-4 ring-primary p-1 bg-white"
+                className="w-20 h-20 object-cover rounded-full ring-4 ring-primary p-1"
                 alt={`Foto de ${member.name}`}
               />
               <h3 className="text-center text-black font-bold">{member.name}</h3>

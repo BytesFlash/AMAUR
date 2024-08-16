@@ -63,9 +63,9 @@ const Works = () => {
               src="Mallsur1.png"
               className="w-full h-56 object-cover rounded-3xl"
             />
-            <p className="text-gray-500">17 de abril, 2024</p>
+            <p className="text-gray-500">06 de julio, 2024</p>
             <h3 className="text-2xl font-bold">
-              Mall plaza sur, masaje al aire libre encolaboración al mall plaza sur.
+              Evento a beneficio de Jocelyn.
             </h3>
           </div>
         </div>
