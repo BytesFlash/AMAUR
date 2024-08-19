@@ -19,12 +19,12 @@ const Works = () => {
             className="w-full h-[600px] object-cover rounded-3xl"
           />
           <p className="text-gray-500">20 de marzo, 2024</p>
-          <h3 className="text-2xl font-bold">I-Med</h3>
+          <h3 className="text-2xl font-bold">Ghh</h3>
           <p className="text-gray-500">
-            Nuestra primera colaboración con la empresa I-Med representa una alianza
+            Nuestra primera colaboración con la empresa Ghh representa una alianza
             muy importante. Esta asociación se centra en proporcionar soluciones de
-            bienestar para empresas cuyos trabajadores pasan largas horas sentados,
-            ayudando a mejorar su salud y productividad.
+            bienestar para empresas cuyos trabajadores pasan largas  horas cargando
+            objetos, como amaur ayudamos a mejorar su salud y productividad.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -35,7 +35,7 @@ const Works = () => {
             />
             <p className="text-gray-500">22 de marzo, 2024</p>
             <h3 className="text-2xl font-bold">
-              GHH, empresa enfocada en la reparación y venta de maquinaria minera
+              Visita a empresa enfocada en la reparación y venta de maquinaria minera
             </h3>
           </div>
           <div className="flex flex-col gap-4">
@@ -45,17 +45,17 @@ const Works = () => {
             />
             <p className="text-gray-500">2 de abril, 2024</p>
             <h3 className="text-2xl font-bold">
-              MGS, empresa enfocada en la venta de repuestos para camiones
+              Visita a empresa enfocada en la reparación y venta de maquinaria minera
             </h3>
           </div>
           <div className="flex flex-col gap-4">
             <img
-              src="asilo1.jpg"
+              src="mgs-cam1.jpg"
               className="w-full h-56 object-cover rounded-3xl"
             />
             <p className="text-gray-500">15 de abril, 2024</p>
             <h3 className="text-2xl font-bold">
-              Fundación las rosas, masaje de relajación a residentes de tercera edad.
+              MGS empresa dedicada a la venta de repuestos de camiones
             </h3>
           </div>
           <div className="flex flex-col gap-4">

@@ -31,17 +31,9 @@ const Footer = () => {
             {" "}
             <RiInstagramLine />{" "}
           </a>
-          <a href="#" className="block text-white p-4 bg-primary rounded-full">
+          <a href="https://www.facebook.com/profile.php?id=61563258417691" className="block text-white p-4 bg-primary rounded-full">
             {" "}
             <RiFacebookLine />{" "}
-          </a>
-          <a href="#" className="block text-white p-4 bg-primary rounded-full">
-            {" "}
-            <RiTwitterLine />{" "}
-          </a>
-          <a href="#" className="block text-white p-4 bg-primary rounded-full">
-            {" "}
-            <RiGithubLine />{" "}
           </a>
         </nav>
       </div>

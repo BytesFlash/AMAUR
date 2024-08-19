@@ -10,12 +10,12 @@ const Reviews = () => {
     {
       name: 'Barbara G.',
       title: 'Terapeuta ocupacional',
-      imgSrc: 'https://img.freepik.com/foto-gratis/hombre-barbudo-feliz-sorprendido-camisa-apuntando-lejos_171337-5021.jpg',
+      imgSrc: 'Baby.jpg',
     },
     {
       name: 'Camila E.',
       title: 'Kinesiologa',
-      imgSrc: 'Camila.png',
+      imgSrc: 'Camila.jpg',
     },
     {
       name: 'Elizabeth G.',
